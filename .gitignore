@@ -10,3 +10,6 @@ node_modules
 /assets
 /site.region
 /template.conf
+
+# Ignore the vendor folder as assets should be brought in via bower
+/_source/vendor
