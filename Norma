@@ -1,0 +1,39 @@
+"tasks":
+  "bower":
+    "_source/vendor":
+      "junction": "NewSpring/junction-framework"
+      
+  "less":
+    "endpoint": "NewSpring/norma-less",
+    "src": "_source/styles/**/*",
+    "dest": "styles"
+
+  "sass":
+    "src": "_source/styles/**/*",
+    "dest": "styles"
+
+  "copy":
+    "src": "_source/assets/**/*",
+    "dest": "assets"
+  
+  "config":
+    "@extend": "copy",
+    "src": "_source/templates/**/*",
+    "dest": "./",
+    "ext": ["conf"]
+    
+  "css":
+    "@extend": "copy",
+    "src": "_source/styles/**/*",
+    "dest": "styles",
+    "ext": ["css"]
+
+  "javascript":
+    "src": "_source/scripts/**/*"
+    "dest": "scripts"
+
+  "markup":
+    "src": "_source/templates/**/*"
+    "dest": "./",
+    "ext": ["item","list","block","page","region"],
+    "minify": true

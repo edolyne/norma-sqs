@@ -1,0 +1,12 @@
+sftp-config.json
+.sqs-cache
+node_modules
+
+# Ignore the built files from the git repo, just keep them in _source
+/styles
+/scripts
+/collections
+/blocks
+/assets
+/site.region
+/template.conf

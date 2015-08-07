@@ -1,0 +1,14 @@
+{
+  "name": "Squarespace",
+  "version": "1.0.0",
+  "description": "A skeleton Norma compilation for use with Squarespace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edolyne Long",
+  "license": "MIT",
+  "dependencies": {
+    "norma-less": "git://github.com/newspring/norma-less.git"
+  }
+}
